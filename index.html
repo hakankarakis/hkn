@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Soru Cevap Uygulaması</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <label for="karisik-sorular">Soruları Karışık Göster</label>
+<input type="checkbox" id="karisik-sorular" onchange="karisikSorulariGoster()" />
+
+<div id="soru-alani">
+    <h1 class="title">Soru Cevap Uygulaması</h1>
+    <div id="question-container" class="question-container">
+      <p id="question" class="question"></p>
+      <p id="answer" class="answer"></p>
+    </div>
+    <div class="button-container">
+      <button id="previous-button" class="button" onclick="previousQuestion()">Önceki Soru</button>
+      <button id="next-button" class="button" onclick="nextQuestion()">Sonraki Soru</button>
+      
+      <button id="answer-button" class="button" onclick="toggleAnswer()">Cevap Göster</button>
+    </div>
+    
+  <!-- Soruların yer alacağı alan -->
+</div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
