@@ -1,605 +1,552 @@
 var sorular = [
-  
-  {
-    soru: "Was versteht man unter dem Begriff 'Dekubitus'?",
-    cevap: "Ein Dekubitus ist ein Druckgeschwür, das durch anhaltenden Druck auf die Haut entsteht, insbesondere bei immobilisierten Patienten."
-  },
-  {
-    soru: "Welche Maßnahmen können zur Vorbeugung eines Dekubitus ergriffen werden?",
-    cevap: "Zur Vorbeugung eines Dekubitus sollten regelmäßige Lagerungswechsel, Hautpflege, Druckentlastungsmatratzen und Aufklärung des Patienten gehören."
-  },
-  {
-    soru: "Was ist die Grundlage der Pflegeplanung?",
-    cevap: "Die Grundlage der Pflegeplanung sind die individuellen Bedürfnisse und Probleme des Patienten sowie die Pflegediagnosen."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Sturzprophylaxe'?",
-    cevap: "Sturzprophylaxe bezeichnet Maßnahmen zur Vermeidung von Stürzen bei älteren oder beeinträchtigten Patienten, um Verletzungen zu minimieren."
-  },
-  {
-    soru: "Welche Faktoren können das Sturzrisiko erhöhen?",
-    cevap: "Das Sturzrisiko kann durch Faktoren wie Mobilitätseinschränkungen, Medikamenteneinnahme, Sehstörungen und Umgebungsfaktoren erhöht werden."
-  },
-  {
-    soru: "Was versteht man unter 'Asepsis'?",
-    cevap: "Asepsis bezeichnet die Maßnahmen zur Verhinderung von Infektionen durch die Beseitigung oder Minimierung von Mikroorganismen in der Umgebung."
-  },
-  {
-    soru: "Was ist ein 'Insulin-Schock'?",
-    cevap: "Ein Insulin-Schock ist eine lebensbedrohliche Komplikation bei Diabetes, die durch einen starken Abfall des Blutzuckerspiegels gekennzeichnet ist."
-  },
-  {
-    soru: "Was versteht man unter 'Phlebitis'?",
-    cevap: "Phlebitis bezeichnet eine Entzündung der Venenwand, die durch Infektionen, Verletzungen oder Reizstoffe verursacht werden kann."
-  },
-  {
-    soru: "Welche Symptome treten bei einer Lungenembolie auf?",
-    cevap: "Symptome einer Lungenembolie können Atemnot, Brustschmerzen, schneller Herzschlag, Husten und Bluthusten sein."
-  },
-  {
-    soru: "Was ist eine 'Tracheotomie'?",
-    cevap: "Eine Tracheotomie ist ein chirurgischer Eingriff, bei dem ein Schnitt in die Luftröhre gemacht wird, um eine Atemwegsobstruktion zu umgehen oder eine langfristige Atemunterstützung zu ermöglichen."
-  },
-  {
-    soru: "Was ist der Unterschied zwischen einer Vollnarkose und einer Lokalanästhesie?",
-    cevap: "Eine Vollnarkose ist ein Zustand der Bewusstlosigkeit, bei dem der gesamte Körper betäubt wird, während eine Lokalanästhesie nur einen bestimmten Bereich betäubt, während der Patient wach ist."
-  },
-  {
-    soru: "Was ist eine 'Thrombose'?",
-    cevap: "Eine Thrombose ist die Bildung eines Blutgerinnsels in einem Blutgefäß, das den normalen Blutfluss blockieren kann."
-  },
-  {
-    soru: "Welche Maßnahmen sollten zur Vorbeugung von Thrombosen ergriffen werden?",
-    cevap: "Zur Vorbeugung von Thrombosen sollten Mobilisierung, Kompressionsstrümpfe, Medikamente zur Blutverdünnung und ausreichende Flüssigkeitszufuhr gehören."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Diurese'?",
-    cevap: "Diurese bezeichnet die Produktion und Ausscheidung von Urin durch die Nieren."
-  },
-  {
-    soru: "Was sind die möglichen Komplikationen einer Wundinfektion?",
-    cevap: "Mögliche Komplikationen einer Wundinfektion sind Wundheilungsstörungen, Abszesse, Sepsis und Narbenbildung."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Anamnese'?",
-    cevap: "Anamnese bezeichnet die Erfassung der Krankheitsgeschichte eines Patienten, einschließlich Symptome, frühere Krankheiten, Medikamenteneinnahme und familiäre Krankheitsgeschichte."
-  },
-  {
-    soru: "Was ist eine 'Tracheitis'?",
-    cevap: "Eine Tracheitis ist eine Entzündung der Luftröhre, die durch Infektionen, allergische Reaktionen oder Reizstoffe verursacht werden kann."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Interkulturalität'?",
-    cevap: "Interkulturalität bezeichnet das Zusammenleben und die Interaktion von Menschen verschiedener kultureller Hintergründe."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Medikamentenverabreichung?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Medikamentenverabreichung umfassen die Überprüfung der Medikamentenverordnung, die korrekte Dosierung und Verabreichung, die Dokumentation und die Überwachung möglicher Nebenwirkungen."
-  },
-  {
-    soru: "Was ist ein 'Hämatom'?",
-    cevap: "Ein Hämatom ist eine Ansammlung von Blut außerhalb eines Blutgefäßes, die durch Verletzungen oder Blutungen verursacht wird."
+    {
+   soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Diabetes eine angemessene Blutzuckerkontrolle zu ermöglichen?",
+   cevap: "Ein Krankenpfleger überwacht regelmäßig den Blutzuckerspiegel des Patienten, verabreicht Insulin oder orale Antidiabetika nach ärztlicher Anweisung und unterstützt den Patienten bei der Umsetzung eines gesunden Lebensstils."
+   },
+
+ {
+   soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit einer Herzerkrankung bei der Durchführung von Herzkreislaufübungen?",
+   cevap: "Ein Krankenpfleger überwacht die Vitalzeichen des Patienten während des Trainings, passt das Trainingsprogramm an die individuellen Bedürfnisse des Patienten an und gibt Anleitungen zur richtigen Durchführung der Übungen."
+   },
+
+ {
+   soru: "Welche Pflegemaßnahmen ergreift ein Krankenpfleger, um eine Dekubitusgeschwürbildung bei bettlägerigen Patienten zu verhindern?",
+   cevap: "Ein Krankenpfleger positioniert den Patienten regelmäßig um, sorgt für eine angemessene Lagerung und Polsterung, überwacht den Hautzustand und führt spezielle Pflegemaßnahmen durch, um Druckgeschwüre zu vermeiden."
+   },
+
+ {
+   soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Demenz bei der Bewältigung von Alltagsaktivitäten?",
+   cevap: "Ein Krankenpfleger kann den Patienten bei der Körperpflege, beim Ankleiden, beim Essen und anderen täglichen Aktivitäten unterstützen, ihm eine strukturierte Umgebung bieten und ihm helfen, sich sicher und wohl zu fühlen."
+   },
+
+ {
+   soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um eine Atemwegsobstruktion bei einem Patienten mit chronisch-obstruktiver Lungenerkrankung (COPD) zu lindern?",
+   cevap: "Ein Krankenpfleger kann dem Patienten Atemtechniken beibringen, ihm bei der Anwendung von Inhalationsmedikamenten helfen, bei Bedarf Sauerstofftherapie durchführen und den Patienten zur Raucherentwöhnung ermutigen."
+   },
+
+ {
+   soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Depressionen bei der Bewältigung emotionaler Herausforderungen?",
+   cevap: "Ein Krankenpfleger kann dem Patienten emotionale Unterstützung bieten, therapeutische Gespräche führen, ihn bei der Einhaltung der Medikation unterstützen und gegebenenfalls eine Überweisung an einen Psychologen oder Psychiater arrangieren."
+   },
+
+ {
+   soru: "Welche Pflegemaßnahmen ergreift ein Krankenpfleger, um eine Infektion bei einem Patienten mit offener Wunde zu verhindern?",
+   cevap: "Ein Krankenpfleger reinigt und verbindet die Wunde regelmäßig, überwacht Anzeichen einer Infektion, gibt gegebenenfalls Antibiotika und gibt Anweisungen zur Wundversorgung und Hygiene."
+   },
+
+ {
+   soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Multipler Sklerose (MS) bei der Bewältigung von Mobilitätsproblemen?",
+   cevap: "Ein Krankenpfleger kann den Patienten bei der Anwendung von Hilfsmitteln wie Gehhilfen oder Rollstühlen unterstützen, therapeutische Übungen anleiten und gegebenenfalls physikalische oder ergotherapeutische Behandlungen koordinieren."
+   },
+
+ {
+   soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Epilepsie während eines Anfalls zu helfen?",
+   cevap: "Ein Krankenpfleger sorgt für Sicherheit, indem er den Patienten auf eine weiche Oberfläche legt, enge Gegenstände entfernt, den Kopf schützt und den Anfall dokumentiert. Anschließend überwacht er den Patienten und bietet gegebenenfalls medizinische Hilfe."
+   },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Krebs bei der Bewältigung von Nebenwirkungen der Chemotherapie?",
+    cevap: "Ein Krankenpfleger bietet Unterstützung und Informationen zu möglichen Nebenwirkungen, verabreicht die Chemotherapie nach ärztlicher Anweisung, überwacht den Allgemeinzustand des Patienten und hilft bei der Linderung von Symptomen wie Übelkeit, Müdigkeit oder Haarausfall."
   },
 
-  {
-    soru: "Was versteht man unter dem Begriff 'Aspiration'?",
-    cevap: "Aspiration bezeichnet das Einatmen von Fremdkörpern, Flüssigkeiten oder Mageninhalt in die Atemwege."
-  },
-  {
-    soru: "Was sind die Risikofaktoren für die Entwicklung von Dekubitus?",
-    cevap: "Risikofaktoren für die Entwicklung von Dekubitus sind Immobilität, mangelnde Körperpflege, Inkontinenz, schlechte Ernährung und chronische Erkrankungen."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Hypoglykämie'?",
-    cevap: "Hypoglykämie bezeichnet einen niedrigen Blutzuckerspiegel, der zu Symptomen wie Schwäche, Zittern, Schwindel und Bewusstlosigkeit führen kann."
-  },
-  {
-    soru: "Was sind die Anzeichen einer Lungenentzündung?",
-    cevap: "Anzeichen einer Lungenentzündung sind Fieber, Husten mit Auswurf, Atemnot, Brustschmerzen und Müdigkeit."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Inkontinenz'?",
-    cevap: "Inkontinenz bezeichnet den Verlust der Kontrolle über die Blasen- oder Darmentleerung, was zu unwillkürlichem Urin- oder Stuhlverlust führt."
-  },
-  {
-    soru: "Was ist ein 'Pleurakatheter'?",
-    cevap: "Ein Pleurakatheter ist ein dünner Schlauch, der in den Pleuraraum eingeführt wird, um Flüssigkeiten oder Luft abzulassen und Druck abzubauen."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Nosokomiale Infektion'?",
-    cevap: "Eine nosokomiale Infektion ist eine Infektion, die während eines Krankenhausaufenthalts erworben wird, oft durch Krankenhauskeime oder unzureichende Hygienemaßnahmen."
-  },
-  {
-    soru: "Was ist eine 'Meningitis'?",
-    cevap: "Meningitis ist eine Entzündung der Hirnhäute, die durch Infektionen, insbesondere durch Viren oder Bakterien, verursacht werden kann."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Sepsis'?",
-    cevap: "Sepsis, auch als Blutvergiftung bekannt, ist eine lebensbedrohliche Infektionskrankheit, bei der eine Infektion sich im ganzen Körper ausbreitet."
-  },
-  {
-    soru: "Was sind die Symptome eines Herzinfarkts?",
-    cevap: "Symptome eines Herzinfarkts können Brustschmerzen, Atemnot, Schweißausbrüche, Übelkeit und Schmerzen, die in Arme, Schultern oder Kiefer ausstrahlen, sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Pneumonie'?",
-    cevap: "Eine Pneumonie, auch als Lungenentzündung bekannt, ist eine Infektion oder Entzündung des Lungengewebes, die durch Bakterien, Viren oder Pilze verursacht werden kann."
-  },
-  {
-    soru: "Was sind die Symptome einer Harnwegsinfektion?",
-    cevap: "Symptome einer Harnwegsinfektion können Schmerzen und Brennen beim Wasserlassen, häufiger Harndrang, trüber oder blutiger Urin und Unterbauchschmerzen sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Demenz'?",
-    cevap: "Demenz ist ein allgemeiner Begriff für eine Gruppe von Erkrankungen, die den Verlust von geistigen Fähigkeiten wie Gedächtnis, Denken und Urteilsvermögen verursachen."
-  },
-  {
-    soru: "Was sind die Symptome eines Schlaganfalls?",
-    cevap: "Symptome eines Schlaganfalls können plötzliche Schwäche oder Lähmung einer Körperseite, Sprach- und Sehstörungen, Verwirrtheit und starke Kopfschmerzen sein."
-  },
-  {
-    soru: "Was versteht man unter 'Kommunikation in der Pflege'?",
-    cevap: "Kommunikation in der Pflege bezieht sich auf den Austausch von Informationen, Bedürfnissen und Emotionen zwischen Pflegekräften, Patienten und Angehörigen, um eine effektive Pflege zu gewährleisten."
-  },
-  {
-    soru: "Was sind die wichtigsten Aufgaben einer Krankenpflegekraft im Notfallmanagement?",
-    cevap: "Zu den wichtigsten Aufgaben einer Krankenpflegekraft im Notfallmanagement gehören die schnelle Beurteilung der Situation, die Durchführung von lebensrettenden Maßnahmen wie CPR, die Alarmierung des medizinischen Teams und die Koordination der weiteren Versorgung."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Niereninsuffizienz'?",
-    cevap: "Niereninsuffizienz ist eine Erkrankung, bei der die Nieren ihre Funktion nicht mehr ausreichend erfüllen können, um den Körper von Abfallstoffen und überschüssiger Flüssigkeit zu befreien."
-  },
-  {
-    soru: "Was ist eine 'Mukoviszidose'?",
-    cevap: "Mukoviszidose ist eine genetische Erkrankung, die die Funktion verschiedener Organe, insbesondere der Lunge und Bauchspeicheldrüse, beeinträchtigt und zu schweren Symptomen führt."
-  },
-  {
-    soru: "Was versteht man unter 'Sterbebegleitung'?",
-    cevap: "Sterbebegleitung bezeichnet die Unterstützung und Pflege von Menschen am Ende ihres Lebens, um ihnen ein würdevolles und möglichst schmerzfreies Sterben zu ermöglichen."
-  },
-  {
-    soru: "Was sind die Anzeichen einer allergischen Reaktion?",
-    cevap: "Anzeichen einer allergischen Reaktion können Hautausschlag, Juckreiz, Schwellungen, Atemnot, Übelkeit und Schwindel sein."
-  },
-  {
-    soru: "Was versteht man unter 'Sterilisation'?",
-    cevap: "Sterilisation bezeichnet den Prozess der Abtötung aller lebenden Mikroorganismen, einschließlich Bakterien, Viren und Sporen, um eine Keimfreiheit zu erreichen."
-  },
-  {
-    soru: "Was sind die Anzeichen einer Herzinsuffizienz?",
-    cevap: "Anzeichen einer Herzinsuffizienz können Atemnot, Müdigkeit, geschwollene Knöchel, Herzrasen und Gewichtszunahme aufgrund von Flüssigkeitsansammlung sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Hypertonie'?",
-    cevap: "Hypertonie, auch bekannt als Bluthochdruck, bezeichnet einen dauerhaft erhöhten Blutdruck, der das Risiko für Herz-Kreislauf-Erkrankungen erhöht."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Wundversorgung?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Wundversorgung umfassen die Reinigung und Desinfektion der Wunde, das Anlegen von Verbänden, die Überwachung des Heilungsprozesses und die Bewertung auf Infektionszeichen."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Dialyse'?",
-    cevap: "Dialyse ist ein Verfahren zur Reinigung des Blutes bei Nierenversagen, bei dem Abfallprodukte und überschüssige Flüssigkeit aus dem Körper entfernt werden."
-  },
-  {
-    soru: "Was sind die Symptome eines Diabetes mellitus?",
-    cevap: "Symptome eines Diabetes mellitus können übermäßiger Durst, häufiges Wasserlassen, Gewichtsverlust, Müdigkeit, Sehstörungen und schlecht heilende Wunden sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Sauerstofftherapie'?",
-    cevap: "Sauerstofftherapie bezeichnet die Verabreichung von zusätzlichem Sauerstoff zur Behandlung von Sauerstoffmangel im Körper, der durch verschiedene Erkrankungen verursacht werden kann."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Patientenüberwachung?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Patientenüberwachung umfassen die regelmäßige Erfassung von Vitalparametern wie Blutdruck, Puls, Atmung und Temperatur sowie die Beobachtung von Veränderungen im Gesundheitszustand des Patienten."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Asepsis'?",
-    cevap: "Asepsis bezeichnet den Zustand der Abwesenheit von lebensfähigen Mikroorganismen, um eine Infektion zu verhindern."
-  },
-  {
-    soru: "Was sind die Symptome einer Lungenembolie?",
-    cevap: "Symptome einer Lungenembolie können plötzliche Atemnot, Brustschmerzen, schneller Herzschlag, Husten und blutiger Auswurf sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Thrombose'?",
-    cevap: "Thrombose bezeichnet die Bildung eines Blutgerinnsels in einem Blutgefäß, das den normalen Blutfluss behindern kann."
-  },
-  {
-    soru: "Was sind die Anzeichen einer Hypoglykämie?",
-    cevap: "Anzeichen einer Hypoglykämie können Schweißausbrüche, Zittern, Verwirrtheit, schneller Herzschlag und plötzliche Müdigkeit sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Schock'?",
-    cevap: "Schock bezeichnet einen lebensbedrohlichen Zustand, bei dem der Körper nicht ausreichend mit Sauerstoff und Nährstoffen versorgt wird, was zu Organversagen führen kann."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Medikamentenverabreichung?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Medikamentenverabreichung umfassen die richtige Dosierung und Verabreichung von Medikamenten, die Überwachung von Nebenwirkungen und die Dokumentation der Verabreichung."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Palliativpflege'?",
-    cevap: "Palliativpflege bezeichnet die umfassende Betreuung von Patienten mit fortgeschrittenen, unheilbaren Erkrankungen, um ihre Lebensqualität zu verbessern und ihre Symptome zu lindern."
-  },
-  {
-    soru: "Was sind die Symptome einer Migräne?",
-    cevap: "Symptome einer Migräne können starke Kopfschmerzen, Lichtempfindlichkeit, Übelkeit, Erbrechen und Sehstörungen sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Asthma'?",
-    cevap: "Asthma ist eine chronische entzündliche Erkrankung der Atemwege, die zu Atembeschwerden, Husten und Engegefühl in der Brust führen kann."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Pflege von Patienten mit chronischen Wunden?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Pflege von Patienten mit chronischen Wunden umfassen die regelmäßige Wundreinigung, das Anlegen von speziellen Verbänden, die Überwachung des Heilungsprozesses und die Schulung des Patienten in der Selbstversorgung."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Dekubitus'?",
-    cevap: "Dekubitus, auch als Druckgeschwür oder Wundliegen bekannt, ist eine Schädigung der Haut und des darunterliegenden Gewebes aufgrund von anhaltendem Druck oder Reibung."
-  },
-  {
-    soru: "Was sind die Symptome einer Anämie?",
-    cevap: "Symptome einer Anämie können Müdigkeit, Blässe, Kurzatmigkeit, Schwindel und erhöhte Herzfrequenz sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Inkontinenz'?",
-    cevap: "Inkontinenz bezeichnet den unkontrollierten Verlust von Urin oder Stuhl aufgrund einer Schwäche der Blasen- oder Darmsphinkter-Muskulatur."
-  },
-  {
-    soru: "Was sind die Anzeichen einer Lungenentzündung?",
-    cevap: "Anzeichen einer Lungenentzündung können Husten, Fieber, Atemnot, Brustschmerzen und Müdigkeit sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Aspiration'?",
-    cevap: "Aspiration bezeichnet das Einatmen von Flüssigkeiten oder Fremdkörpern in die Atemwege, was zu einer Entzündung oder Infektion führen kann."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Mobilisierung von Patienten?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Mobilisierung von Patienten umfassen die Unterstützung bei der Bewegung, die Vermeidung von Druckgeschwüren, die Förderung der Durchblutung und die Sturzprävention."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Diurese'?",
-    cevap: "Diurese bezeichnet die Produktion und Ausscheidung von Urin durch die Nieren, um überschüssige Flüssigkeit und Stoffwechselabfälle aus dem Körper zu entfernen."
-  },
-  {
-    soru: "Was sind die Symptome einer Harnwegsinfektion?",
-    cevap: "Symptome einer Harnwegsinfektion können Brennen beim Wasserlassen, häufiges Wasserlassen, trüber Urin, Bauchschmerzen und Fieber sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Intrakranieller Druck'?",
-    cevap: "Intrakranieller Druck bezeichnet den Druck innerhalb des Schädels, der bei Erkrankungen wie Hirnödem oder Tumoren erhöht sein kann und zu neurologischen Symptomen führen kann."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Unterstützung von Patienten mit eingeschränkter Mobilität?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Unterstützung von Patienten mit eingeschränkter Mobilität umfassen die Hilfe beim Umsetzen im Bett, die Unterstützung beim Transfer, die Vermeidung von Druckgeschwüren und die Förderung der Selbstständigkeit."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Septikämie'?",
-    cevap: "Septikämie, auch als Blutvergiftung bezeichnet, ist eine lebensbedrohliche Infektion im Blutkreislauf, die sich im ganzen Körper ausbreitet und zu Organversagen führen kann."
-  },
-  {
-    soru: "Was sind die Symptome einer Hypothermie?",
-    cevap: "Symptome einer Hypothermie können Schüttelfrost, kalte Haut, Verwirrtheit, langsamer Herzschlag und Bewusstseinsverlust sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Tachykardie'?",
-    cevap: "Tachykardie bezeichnet eine erhöhte Herzfrequenz, die in der Regel über 100 Schläge pro Minute liegt."
-  },
-  {
-    soru: "Was sind die Anzeichen einer Lungenembolie?",
-    cevap: "Anzeichen einer Lungenembolie können plötzliche Atemnot, Brustschmerzen, schneller Herzschlag, Husten und blutiger Auswurf sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Hypertonie'?",
-    cevap: "Hypertonie bezeichnet einen erhöhten Blutdruck, bei dem die systolischen Werte über 140 mmHg und die diastolischen Werte über 90 mmHg liegen."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Pflege von Patienten mit Diabetes?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Pflege von Patienten mit Diabetes umfassen die Überwachung des Blutzuckerspiegels, die Verabreichung von Insulin, die Schulung des Patienten in der Selbstkontrolle und die Prävention von Komplikationen."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Thrombozytopenie'?",
-    cevap: "Thrombozytopenie bezeichnet eine verminderte Anzahl von Blutplättchen im Blut, was zu einem erhöhten Blutungsrisiko führen kann."
-  },
-  {
-    soru: "Was sind die Symptome einer Hepatitis?",
-    cevap: "Symptome einer Hepatitis können Müdigkeit, Gelbsucht, Bauchschmerzen, Übelkeit und dunkler Urin sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Niereninsuffizienz'?",
-    cevap: "Niereninsuffizienz bezeichnet eine Abnahme der Nierenfunktion, bei der die Nieren nicht mehr ausreichend Abfallprodukte und überschüssige Flüssigkeit aus dem Körper filtern können."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Durchführung einer Bluttransfusion?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Durchführung einer Bluttransfusion umfassen die Überprüfung der Verträglichkeit, die Überwachung des Patienten während der Transfusion und die Dokumentation des Vorgangs."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Pneumonie'?",
-    cevap: "Pneumonie, auch als Lungenentzündung bezeichnet, ist eine Infektion oder Entzündung des Lungengewebes, die durch Bakterien, Viren oder Pilze verursacht werden kann."
-  },
-  {
-    soru: "Was sind die Symptome einer Hypoglykämie?",
-    cevap: "Symptome einer Hypoglykämie können Schweißausbrüche, Zittern, Verwirrtheit, schneller Herzschlag und plötzliche Müdigkeit sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Dekubitus'?",
-    cevap: "Dekubitus, auch als Druckgeschwür oder Wundliegen bezeichnet, ist eine Schädigung der Haut und des darunterliegenden Gewebes aufgrund von langanhaltendem Druck oder Reibung."
-  },
-  {
-    soru: "Was sind die Anzeichen einer akuten Appendizitis?",
-    cevap: "Anzeichen einer akuten Appendizitis können Bauchschmerzen, Übelkeit, Erbrechen, Fieber und Rebound-Tenderness im rechten Unterbauch sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Hypoglykämie'?",
-    cevap: "Hypoglykämie bezeichnet einen zu niedrigen Blutzuckerspiegel, der zu Symptomen wie Schwindel, Schwäche, Verwirrtheit und erhöhtem Hunger führen kann."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Wundversorgung?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Wundversorgung umfassen die Reinigung der Wunde, das Anlegen von Verbänden, die Überwachung auf Infektionen und die Förderung des Heilungsprozesses."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Dialyse'?",
-    cevap: "Dialyse ist ein Verfahren, bei dem das Blut außerhalb des Körpers gereinigt und von Stoffwechselabfällen und überschüssiger Flüssigkeit befreit wird, wenn die Nieren nicht mehr ausreichend funktionieren."
-  },
-  {
-    soru: "Was sind die Symptome einer Lungenfibrose?",
-    cevap: "Symptome einer Lungenfibrose können Atemnot, trockener Husten, Müdigkeit, Gewichtsverlust und Finger- oder Zehenspitzenveränderungen sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Stoma'?",
-    cevap: "Ein Stoma ist eine operative Öffnung, die auf der Bauchwand angelegt wird, um den Darm oder die Harnwege mit einer externen Tasche zur Sammlung von Ausscheidungen zu verbinden."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Verabreichung von Medikamenten?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Verabreichung von Medikamenten umfassen die Überprüfung der Verordnung, die Vorbereitung der Medikamente, die Überwachung des Patienten auf Nebenwirkungen und die Dokumentation der Verabreichung."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Thrombose'?",
-    cevap: "Thrombose bezeichnet die Bildung eines Blutgerinnsels in einem Blutgefäß, das den normalen Blutfluss behindert und zu Komplikationen wie einer Lungenembolie führen kann."
-  },
-  {
-    soru: "Was sind die Symptome einer Anämie?",
-    cevap: "Symptome einer Anämie können Müdigkeit, blasse Haut, Kurzatmigkeit, Herzklopfen und Konzentrationsstörungen sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Pleuritis'?",
-    cevap: "Pleuritis, auch als Rippenfellentzündung bezeichnet, ist eine Entzündung des dünnen Gewebes, das die Lunge umgibt und zu Schmerzen beim Atmen führen kann."
-  },
-  {
-    soru: "Was sind die Anzeichen einer Sepsis?",
-    cevap: "Anzeichen einer Sepsis können Fieber, beschleunigter Herzschlag, Atembeschwerden, Verwirrtheit und niedriger Blutdruck sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Hämorrhoiden'?",
-    cevap: "Hämorrhoiden sind geschwollene Blutgefäße im Analbereich, die Schmerzen, Juckreiz und Blutungen verursachen können."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Mobilisierung eines Patienten?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Mobilisierung eines Patienten umfassen die Unterstützung bei der Aktivierung, das Anleiten von Übungen, die Überwachung der Sicherheit und die Förderung der Selbstständigkeit."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Hypoxie'?",
-    cevap: "Hypoxie bezeichnet einen Sauerstoffmangel im Gewebe, der zu Symptomen wie Atemnot, blauer Verfärbung der Haut und Verwirrtheit führen kann."
-  },
-  {
-    soru: "Was sind die Symptome einer Schlaganfall?",
-    cevap: "Symptome eines Schlaganfalls können plötzliche Schwäche oder Lähmung, Sprach- oder Sehstörungen, Schwindel und starke Kopfschmerzen sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Demenz'?",
-    cevap: "Demenz ist ein Begriff, der verschiedene Erkrankungen des Gehirns umfasst, die zu Gedächtnisverlust, Veränderungen des Denkvermögens und Verhaltensänderungen führen können."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Palliativpflege?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Palliativpflege umfassen die Linderung von Schmerzen, die Unterstützung bei der Symptomkontrolle, die emotionale Unterstützung für Patienten und Familienangehörige und die Förderung der Lebensqualität."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Pleurakarzinom'?",
-    cevap: "Ein Pleurakarzinom ist ein bösartiger Tumor, der das Gewebe des Rippenfells betrifft und zu Symptomen wie Brustschmerzen, Atemnot und Gewichtsverlust führen kann."
-  },
-  {
-    soru: "Was sind die Symptome einer Herzinsuffizienz?",
-    cevap: "Symptome einer Herzinsuffizienz können Atemnot, Müdigkeit, geschwollene Beine, schneller Herzschlag und Gewichtszunahme sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Diabetes mellitus'?",
-    cevap: "Diabetes mellitus ist eine Stoffwechselerkrankung, bei der der Blutzuckerspiegel dauerhaft erhöht ist. Es gibt verschiedene Formen von Diabetes, darunter Typ 1 Diabetes und Typ 2 Diabetes."
-  },
-  {
-    soru: "Was sind die Anzeichen einer Lungenembolie?",
-    cevap: "Anzeichen einer Lungenembolie können plötzliche Atemnot, Brustschmerzen, Husten, blutiger Auswurf und schneller Herzschlag sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Pneumonie'?",
-    cevap: "Pneumonie, auch als Lungenentzündung bezeichnet, ist eine Infektion oder Entzündung der Lunge, die zu Symptomen wie Husten, Fieber, Brustschmerzen und Atemnot führen kann."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Pflege eines Katheters?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Pflege eines Katheters umfassen die regelmäßige Reinigung und Desinfektion des Katheters, die Überwachung auf Anzeichen von Infektionen und die Aufrechterhaltung einer sicheren und hygienischen Umgebung."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Hepatitis'?",
-    cevap: "Hepatitis ist eine Entzündung der Leber, die durch verschiedene Viren, Alkoholmissbrauch oder andere Ursachen verursacht werden kann. Es gibt verschiedene Arten von Hepatitis, darunter Hepatitis A, B, C, D und E."
-  },
-  {
-    soru: "Was sind die Symptome einer Herzrhythmusstörung?",
-    cevap: "Symptome einer Herzrhythmusstörung können Herzklopfen, unregelmäßiger Herzschlag, Schwindel, Kurzatmigkeit und Brustschmerzen sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Paraplegie'?",
-    cevap: "Paraplegie bezeichnet eine teilweise oder vollständige Lähmung der Beine und des unteren Körperbereichs aufgrund einer Rückenmarksverletzung oder -erkrankung."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Patientenüberwachung?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Patientenüberwachung umfassen die regelmäßige Überprüfung von Vitalparametern wie Blutdruck, Puls, Atmung und Temperatur, die Beobachtung auf Veränderungen im Gesundheitszustand und die rechtzeitige Meldung von Abweichungen an das medizinische Team."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Arteriosklerose'?",
-    cevap: "Arteriosklerose ist eine Erkrankung, bei der sich die Arterienwand verdickt und verhärtet, was zu einer Verengung des Blutflusses führt. Dies erhöht das Risiko für Herzinfarkt und Schlaganfall."
-  },
-  {
-    soru: "Was sind die Symptome einer Meningitis?",
-    cevap: "Symptome einer Meningitis können starke Kopfschmerzen, Nackensteifigkeit, Fieber, Übelkeit, Erbrechen und Lichtempfindlichkeit sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Thrombose'?",
-    cevap: "Thrombose ist die Bildung eines Blutgerinnsels in einem Blutgefäß, das den normalen Blutfluss behindert. Es kann zu Schmerzen, Schwellungen und einer erhöhten Gefahr von Komplikationen wie einer Lungenembolie führen."
-  },
-  {
-    soru: "Was sind die Symptome einer Anämie?",
-    cevap: "Symptome einer Anämie können Müdigkeit, blasse Haut, Kurzatmigkeit, Herzklopfen und Konzentrationsstörungen sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Gastroenteritis'?",
-    cevap: "Gastroenteritis ist eine Entzündung des Magen-Darm-Trakts, die typischerweise Durchfall, Erbrechen, Bauchschmerzen und Übelkeit verursacht."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Wundversorgung?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Wundversorgung umfassen die Reinigung und Desinfektion der Wunde, das Anlegen von Verbänden, die Überwachung auf Anzeichen von Infektionen und die Unterstützung des Heilungsprozesses."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Hypertonie'?",
-    cevap: "Hypertonie, auch als hoher Blutdruck bezeichnet, ist eine Erkrankung, bei der der Blutdruck dauerhaft erhöht ist. Unbehandelt kann Hypertonie zu schwerwiegenden gesundheitlichen Problemen wie Herzkrankheiten und Schlaganfällen führen."
-  },
-  {
-    soru: "Was sind die Symptome einer Depression?",
-    cevap: "Symptome einer Depression können anhaltende Niedergeschlagenheit, Interessenverlust, Schlafstörungen, Appetitveränderungen, Energiemangel und Suizidgedanken sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Osteoporose'?",
-    cevap: "Osteoporose ist eine Erkrankung, bei der die Knochen an Dichte verlieren und spröde werden, was das Risiko von Knochenbrüchen erhöht."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Medikamentengabe?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Medikamentengabe umfassen die Überprüfung der Medikationsverordnung, die Vorbereitung und Verabreichung der Medikamente, die Überwachung der Wirkung und möglicher Nebenwirkungen sowie die Dokumentation."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Hernie'?",
-    cevap: "Eine Hernie ist ein Bruch oder eine Ausstülpung von Gewebe oder Organen durch eine Schwachstelle in der umgebenden Muskulatur oder Bindegewebe. Dies kann zu Schmerzen, Schwellungen und Funktionsstörungen führen."
-  },
-  {
-    soru: "Was sind die Symptome einer Asthma bronchiale?",
-    cevap: "Symptome von Asthma bronchiale können Atemnot, Husten, pfeifende Atemgeräusche und Engegefühl in der Brust sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Demenz'?",
-    cevap: "Demenz ist eine neurodegenerative Erkrankung, die den Verlust von kognitiven Fähigkeiten wie Gedächtnis, Denken und Orientierungsfähigkeit verursacht. Sie tritt häufig im Alter auf und kann zu einer Beeinträchtigung des täglichen Lebens führen."
-  },
-  {
-    soru: "Was sind die Symptome eines Schlaganfalls?",
-    cevap: "Symptome eines Schlaganfalls können plötzliche Schwäche oder Lähmung einer Körperseite, Sprach- oder Sehstörungen, plötzliche Verwirrtheit und starke Kopfschmerzen sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Krebs'?",
-    cevap: "Krebs bezeichnet eine unkontrollierte Vermehrung abnormer Zellen im Körper. Es gibt viele verschiedene Arten von Krebs, die sich in Symptomen, Behandlungsmöglichkeiten und Prognose unterscheiden."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Patientenmobilität?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Patientenmobilität umfassen die Unterstützung des Patienten beim Aufstehen, Gehen oder Bewegen im Bett, die Verwendung von Hilfsmitteln wie Gehhilfen oder Rollstühlen und die Gewährleistung der Sicherheit des Patienten während der Mobilitätsaktivitäten."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Asepsis'?",
-    cevap: "Asepsis bezeichnet die Abwesenheit von Krankheitserregern oder Infektionen. In der Krankenpflege umfasst Asepsis Maßnahmen wie das Tragen von Schutzkleidung, die korrekte Handhygiene und die Sterilisation von Instrumenten, um das Risiko von Infektionen zu minimieren."
-  },
-  {
-    soru: "Was sind die Symptome einer Niereninsuffizienz?",
-    cevap: "Symptome einer Niereninsuffizienz können Müdigkeit, verminderte Harnmenge, Schwellungen, Übelkeit, Juckreiz und Bluthochdruck sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Koma'?",
-    cevap: "Ein Koma ist ein tiefer Bewusstseinszustand, bei dem eine Person nicht ansprechbar ist und keine normalen Reaktionen auf Reize zeigt. Es kann verschiedene Ursachen haben, darunter Kopfverletzungen, Stoffwechselstörungen oder Hirnschädigungen."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Patientenhygiene?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Patientenhygiene umfassen die Unterstützung des Patienten bei der Körperpflege, wie z. B. dem Waschen, Anziehen und Toilettengang, die Überwachung der Integrität der Haut und die Förderung einer angemessenen Hygienepraxis zur Vermeidung von Infektionen."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Diabetes mellitus'?",
-    cevap: "Diabetes mellitus, auch als Zuckerkrankheit bezeichnet, ist eine Stoffwechselerkrankung, bei der der Körper nicht in der Lage ist, den Blutzuckerspiegel effektiv zu regulieren. Dies kann zu erhöhten Blutzuckerspiegeln führen, die langfristig Organe und Gewebe schädigen können."
-  },
-  {
-    soru: "Was sind die Symptome einer Lungenentzündung?",
-    cevap: "Symptome einer Lungenentzündung können Husten mit Auswurf, Fieber, Brustschmerzen, Atemnot und Müdigkeit sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Dekubitus'?",
-    cevap: "Ein Dekubitus, auch als Druckgeschwür oder Wundliegen bezeichnet, ist eine Schädigung der Haut und des darunterliegenden Gewebes aufgrund von anhaltendem Druck oder Reibung. Es tritt häufig bei immobilen oder bettlägerigen Patienten auf."
-  },
-  {
-    soru: "Was sind die Symptome einer Appendizitis?",
-    cevap: "Symptome einer Appendizitis, auch als Blinddarmentzündung bekannt, können Bauchschmerzen, Übelkeit, Erbrechen, Fieber und eine erhöhte Empfindlichkeit im rechten Unterbauch sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Dialyse'?",
-    cevap: "Die Dialyse ist ein medizinisches Verfahren, das zur Reinigung des Blutes von Stoffwechselabfällen und überschüssiger Flüssigkeit eingesetzt wird, wenn die Nieren nicht mehr ordnungsgemäß funktionieren. Es gibt verschiedene Arten von Dialyse, darunter die Hämodialyse und die Peritonealdialyse."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Verabreichung von Sauerstofftherapie?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Verabreichung von Sauerstofftherapie umfassen die Überwachung der Sauerstoffzufuhr, die Anpassung der Flussrate, die Überprüfung der Sauerstoffsättigung im Blut und die Dokumentation der Therapie."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Pneumonie'?",
-    cevap: "Eine Pneumonie ist eine Infektion oder Entzündung der Lunge, die durch verschiedene Erreger wie Bakterien, Viren oder Pilze verursacht werden kann. Symptome einer Pneumonie umfassen Husten, Fieber, Brustschmerzen, Atemnot und Müdigkeit."
-  },
-  {
-    soru: "Was sind die Symptome einer Hypoglykämie?",
-    cevap: "Symptome einer Hypoglykämie, auch bekannt als niedriger Blutzuckerspiegel, können Schwitzen, Zittern, Herzklopfen, Konzentrationsstörungen und Hunger sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Fraktur'?",
-    cevap: "Eine Fraktur ist ein Knochenbruch, der durch äußere Einwirkung oder eine zugrunde liegende Erkrankung verursacht werden kann. Es gibt verschiedene Arten von Frakturen, darunter offene (mit Hautverletzung) und geschlossene (ohne Hautverletzung) Frakturen."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Unterstützung von Patienten mit Atembeschwerden?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Unterstützung von Patienten mit Atembeschwerden umfassen die Überwachung der Atemfrequenz und Sauerstoffsättigung, die Unterstützung bei der Atemtherapie, die Verabreichung von Medikamenten und die Ermutigung zur optimalen Atmungstechnik."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'HIV/AIDS'?",
-    cevap: "HIV/AIDS ist eine Viruserkrankung, die das Immunsystem angreift und zu einer Schwächung der körpereigenen Abwehrkräfte führt. HIV ist das Virus, das AIDS verursacht. AIDS ist das Endstadium der HIV-Infektion, bei dem das Immunsystem schwer geschädigt ist und der Körper anfällig für opportunistische Infektionen und bestimmte Krebsarten ist."
-  },
-  {
-    soru: "Was sind die Symptome einer Meningitis?",
-    cevap: "Symptome einer Meningitis können starke Kopfschmerzen, Nackensteifheit, Fieber, Übelkeit, Erbrechen und Bewusstseinsstörungen sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Hypertonie'?",
-    cevap: "Hypertonie, auch bekannt als hoher Blutdruck, ist eine Erkrankung, bei der der Druck in den Arterien dauerhaft erhöht ist. Es gibt verschiedene Formen von Hypertonie, einschließlich primärer (essentieller) und sekundärer Hypertonie."
-  },
-  {
-    soru: "Was sind die Symptome einer Herzinsuffizienz?",
-    cevap: "Symptome einer Herzinsuffizienz können Atemnot, Müdigkeit, geschwollene Beine oder Knöchel, unregelmäßiger Herzschlag und eingeschränkte körperliche Leistungsfähigkeit sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Thrombose'?",
-    cevap: "Eine Thrombose ist die Bildung eines Blutgerinnsels in einem Blutgefäß, das den normalen Blutfluss behindert. Thrombosen können in Venen oder Arterien auftreten und zu ernsthaften Komplikationen führen, wie z.B. einer Lungenembolie."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Schmerztherapie?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Schmerztherapie umfassen die Bewertung des Schmerzgrades, die Verabreichung von Schmerzmedikamenten, die Anwendung nicht-medikamentöser Maßnahmen zur Schmerzlinderung und die Überwachung der Wirksamkeit der Therapie."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Gastroenteritis'?",
-    cevap: "Gastroenteritis, auch bekannt als Magen-Darm-Infektion oder Magen-Darm-Grippe, ist eine Entzündung des Magen-Darm-Trakts, die durch Viren, Bakterien oder Parasiten verursacht wird. Symptome einer Gastroenteritis können Übelkeit, Erbrechen, Bauchschmerzen, Durchfall und Fieber sein."
-  },
-  {
-    soru: "Was sind die Symptome einer Schilddrüsenunterfunktion?",
-    cevap: "Symptome einer Schilddrüsenunterfunktion, auch bekannt als Hypothyreose, können Müdigkeit, Gewichtszunahme, trockene Haut, Haarausfall, Depressionen und Gedächtnisprobleme sein."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Gastritis'?",
-    cevap: "Eine Gastritis ist eine Entzündung der Magenschleimhaut, die durch verschiedene Ursachen wie Infektionen, Medikamente oder eine übermäßige Magensäureproduktion verursacht werden kann. Symptome einer Gastritis können Bauchschmerzen, Übelkeit, Erbrechen, Sodbrennen und Appetitlosigkeit sein."
-  },
-  {
-    soru: "Was sind die Aufgaben einer Krankenpflegekraft bei der Wundversorgung?",
-    cevap: "Die Aufgaben einer Krankenpflegekraft bei der Wundversorgung umfassen die Reinigung der Wunde, das Anlegen von Verbänden, die Überwachung des Heilungsprozesses, die Verabreichung von Medikamenten und die Beratung des Patienten zur Wundpflege."
-  },
-  {
-    soru: "Was versteht man unter dem Begriff 'Hepatitis'?",
-    cevap: "Hepatitis ist eine Entzündung der Leber, die durch verschiedene Ursachen wie Viren, Alkohol oder bestimmte Medikamente verursacht werden kann. Es gibt verschiedene Arten von Hepatitis, darunter Hepatitis A, B, C, D und E."
-  },
-  {
-    soru: "Was sind die Symptome einer Harnwegsinfektion?",
-    cevap: "Symptome einer Harnwegsinfektion können häufiges Wasserlassen, Brennen beim Wasserlassen, dunkler Urin, Bauchschmerzen und Fieber sein."
+ {
+   soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit chronischer Niereninsuffizienz bei der Hämodialyse zu unterstützen?",
+   cevap: "Ein Krankenpfleger überwacht regelmäßig die Vitalzeichen des Patienten während der Dialyse, stellt sicher, dass die Dialysemaschine ordnungsgemäß funktioniert, überwacht den Flüssigkeits- und Elektrolythaushalt des Patienten und beobachtet Anzeichen von Komplikationen."
+   },
+
+ {
+   soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Schlaganfall bei der Rehabilitation?",
+   cevap: "Ein Krankenpfleger hilft dem Patienten bei der Durchführung von Bewegungsübungen, überwacht den Fortschritt der Rehabilitation, unterstützt bei der Sprachtherapie und bietet emotionale Unterstützung während des Genesungsprozesses."
+   },
+
+ {
+   soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Asthmaanfall Erleichterung zu verschaffen?",
+   cevap: "Ein Krankenpfleger gibt dem Patienten Inhalationsmedikamente, überwacht den Sauerstoffgehalt im Blut, beruhigt den Patienten und unterstützt ihn bei der Vermeidung von Auslösern für Asthmaanfälle."
+   },
+
+ {
+   soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Magengeschwür bei der Verwaltung von Symptomen und der Einhaltung einer geeigneten Diät?",
+   cevap: "Ein Krankenpfleger gibt dem Patienten Medikamente zur Schmerzlinderung, ermutigt zur Einhaltung einer magenschonenden Diät, überwacht den Zustand des Patienten und gibt Anleitungen zur Vermeidung von Auslösern für Magengeschwüre."
+   },
+
+ {
+   soru: "Welche Pflegemaßnahmen ergreift ein Krankenpfleger, um einen Patienten mit Tuberkulose zu isolieren und das Infektionsrisiko für andere zu minimieren?",
+   cevap: "Ein Krankenpfleger trägt eine Schutzkleidung, überwacht die Übertragung von Krankheitserregern, sorgt für eine angemessene Belüftung des Raums und gibt Anleitungen zur korrekten Anwendung von Husten- und Niesetikette."
+   },
+
+ {
+   soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Rheumatoider Arthritis bei der Schmerzlinderung und Bewältigung der Krankheit?",
+   cevap: "Ein Krankenpfleger verabreicht entzündungshemmende Medikamente, gibt Anleitungen zur Gelenkschonung und unterstützt den Patienten bei der Anpassung des Alltags an die Bedürfnisse der Krankheit."
+   },
+
+ {
+   soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um eine Infektion bei einem Patienten mit einer offenen Bauchwunde nach einer Operation zu verhindern?",
+   cevap: "Ein Krankenpfleger überwacht die Wundheilung, reinigt und verbindet die Wunde regelmäßig, überprüft die Drainagen, gibt Anleitungen zur korrekten Wundpflege und überwacht den Patienten auf Anzeichen einer Infektion."
+   },
+
+ {
+   soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Alzheimer-Krankheit bei der Orientierung und Förderung der geistigen Aktivität?",
+   cevap: "Ein Krankenpfleger kann dem Patienten bei der Erstellung von Routinen helfen, Erinnerungshilfen bereitstellen, geistige Aktivitäten anregen und eine sichere Umgebung schaffen, um das Risiko von Verwirrung und Stürzen zu verringern."
+   },
+
+ {
+   soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit akuter Atemnot Erleichterung zu verschaffen?",
+   cevap: "Ein Krankenpfleger stellt sicher, dass der Patient eine angemessene Sauerstoffzufuhr erhält, unterstützt bei der Positionierung des Patienten für eine bessere Atmung und gibt gegebenenfalls bronchienerweiternde Medikamente."
+   },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Parkinson-Krankheit bei der Bewältigung von Gang- und Gleichgewichtsstörungen?",
+    cevap: "Ein Krankenpfleger kann dem Patienten beim Gehen unterstützen, bei Bedarf Gehhilfen bereitstellen, spezielle Übungen anleiten und gegebenenfalls physiotherapeutische Behandlungen koordinieren."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einer schwangeren Frau bei der Geburtsvorbereitung und der Schmerzlinderung während der Wehen zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über den Geburtsvorgang, leitet Atemtechniken an, überwacht den Geburtsverlauf, unterstützt bei der Schmerzlinderung und bietet emotionale Unterstützung für die werdende Mutter."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit akutem Myokardinfarkt (Herzinfarkt) bei der Überwachung und Behandlung?",
+    cevap: "Ein Krankenpfleger überwacht die Vitalzeichen des Patienten, überwacht das EKG, gibt Sauerstoff und Medikamente, bietet Unterstützung bei der Schmerzlinderung und bereitet den Patienten auf mögliche medizinische Eingriffe vor."
+  },
+
+ {
+    soru: "Welche Pflegemaßnahmen ergreift ein Krankenpfleger, um eine Lungenentzündung bei einem älteren Patienten zu verhindern?",
+    cevap: "Ein Krankenpfleger fördert die Atemübungen, ermutigt zur Impfung gegen Pneumokokken, fördert die Mobilisation, überwacht den Flüssigkeitsstatus und gibt Anleitungen zur guten Handhygiene."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit chronischer Hepatitis C bei der Verwaltung der Krankheit und der Behandlung?", 
+ cevap: "Ein Krankenpfleger überwacht regelmäßig die Leberfunktion, gibt Anleitungen zur Medikamenteneinnahme, unterstützt bei der Einhaltung einer gesunden Ernährung und bietet emotionale Unterstützung während der Behandlung."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einer Person mit Suizidalität angemessen zu helfen und zu schützen?",
+    cevap: "Ein Krankenpfleger beurteilt das Suizidrisiko, gibt emotionalen Beistand, koordiniert gegebenenfalls eine psychiatrische Behandlung, sorgt für eine sichere Umgebung und informiert das Behandlungsteam über die Situation."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit chronischer Herzinsuffizienz bei der Einhaltung einer geeigneten Flüssigkeits- und Natriumbeschränkung?",
+    cevap: "Ein Krankenpfleger gibt Anleitungen zur Kontrolle des Flüssigkeits- und Natriumkonsums, überwacht das Gewicht des Patienten, gibt Medikamente zur Entwässerung und unterstützt den Patienten bei der Aufrechterhaltung eines gesunden Lebensstils."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit einer akuten Nahrungsmittelallergie zu helfen?",
+    cevap: "Ein Krankenpfleger beobachtet den Patienten auf Anzeichen einer allergischen Reaktion, gibt Medikamente wie Antihistaminika, unterstützt bei der Vermeidung des Allergens und informiert den Patienten über die Notwendigkeit einer Epinephrin-Autoinjektor-Nutzung."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Zöliakie bei der Einhaltung einer glutenfreien Ernährung?",
+    cevap: "Ein Krankenpfleger gibt Informationen zur glutenfreien Ernährung, unterstützt bei der Identifizierung von glutenhaltigen Lebensmitteln, gibt Ratschläge zur Lebensmittelzubereitung und vermittelt den Austausch mit Ernährungsspezialisten."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit einer akuten Asthmaexazerbation Erleichterung zu verschaffen?",
+    cevap: "Ein Krankenpfleger unterstützt den Patienten bei der Verwendung von Inhalationsgeräten, überwacht den Sauerstoffgehalt im Blut, gibt bronchienerweiternde Medikamente und beruhigt den Patienten während des Anfalls."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit einem chronischen Magengeschwür bei der Verwaltung von Symptomen und der Vorbeugung von Komplikationen?",
+    cevap: "Ein Krankenpfleger gibt Medikamente zur Schmerzlinderung, überwacht den Zustand des Patienten, gibt Ratschläge zur magenschonenden Ernährung und informiert den Patienten über das Risiko von Blutungen oder Perforationen."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um das Sturzrisiko eines älteren Patienten zu reduzieren?",
+    cevap: "Ein Krankenpfleger führt eine Sturzrisikobewertung durch, sorgt für eine sichere Umgebung, unterstützt bei der Mobilität, gibt Anleitungen zur Sturzprävention und überwacht den Patienten regelmäßig."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Demenz bei der täglichen Pflege und Unterstützung?",
+    cevap: "Ein Krankenpfleger unterstützt bei der Körperpflege, ermutigt zur aktiven Teilnahme an Aktivitäten, gibt Anleitungen zur Ernährung und Flüssigkeitsaufnahme und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um eine Infektion bei einem Patienten mit einer postoperativen Wunde zu verhindern?",
+    cevap: "Ein Krankenpfleger trägt sterile Handschuhe, reinigt die Wunde gemäß den aseptischen Techniken, überwacht den Zustand der Wunde, gibt Anleitungen zur Wundversorgung und informiert den Patienten über Anzeichen einer Infektion."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit multipler Sklerose bei der Bewältigung von Symptomen und der Förderung der Lebensqualität?",
+    cevap: "Ein Krankenpfleger gibt Medikamente zur Kontrolle von Symptomen, unterstützt bei der Physiotherapie, gibt Ratschläge zur Energieerhaltung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit akutem Nierenversagen bei der Hämodialyse zu unterstützen?",
+    cevap: "Ein Krankenpfleger überwacht regelmäßig die Vitalzeichen des Patienten während der Dialyse, überprüft den Zustand der Dialysemaschine, überwacht den Flüssigkeits- und Elektrolythaushalt des Patienten und beobachtet Anzeichen von Komplikationen."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Lungenkrebs bei der Bewältigung von Symptomen und der Einhaltung der Behandlung?",
+    cevap: "Ein Krankenpfleger gibt Informationen über die Symptomkontrolle, unterstützt bei der Verabreichung von Medikamenten, bietet emotionale Unterstützung, gibt Anleitungen zur Atmungstechnik und hilft bei der Bewältigung von Nebenwirkungen der Behandlung."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit einer schweren allergischen Reaktion (Anaphylaxie) zu helfen?",
+    cevap: "Ein Krankenpfleger ruft umgehend medizinische Hilfe, gibt Epinephrin über einen Autoinjektor, überwacht den Zustand des Patienten, überprüft die Vitalzeichen und unterstützt bei der Linderung von Atembeschwerden."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit psychischer Erkrankung bei der Bewältigung von Symptomen und der Förderung des Wohlbefindens?",
+    cevap: "Ein Krankenpfleger bietet emotionale Unterstützung, fördert die Teilnahme an therapeutischen Aktivitäten, überwacht die Wirksamkeit von Medikamenten, hilft bei der Bewältigung von Stress und koordiniert gegebenenfalls die Zusammenarbeit mit Psychologen oder Psychiatern."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit chronischer obstruktiver Lungenerkrankung (COPD) Erleichterung zu verschaffen?",
+    cevap: "Ein Krankenpfleger gibt bronchienerweiternde Medikamente, überwacht den Sauerstoffgehalt im Blut, unterstützt bei der Atemübung, gibt Anleitungen zur Energieerhaltung und fördert die Raucherentwöhnung."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Diabetes bei der Blutzuckerkontrolle und der Selbstpflege?",
+    cevap: "Ein Krankenpfleger überwacht regelmäßig den Blutzuckerspiegel des Patienten, verabreicht Insulin oder orale Antidiabetika nach ärztlicher Anweisung, unterstützt den Patienten bei der Umsetzung eines gesunden Lebensstils und gibt Anleitungen zur Blutzuckermessung."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Epilepsie bei der Anfallskontrolle und Sicherheit zu helfen?",
+    cevap: "Ein Krankenpfleger unterstützt bei der Medikamenteneinnahme, überwacht den Patienten während und nach einem Anfall, sorgt für eine sichere Umgebung, gibt Anleitungen zur Vermeidung von Auslösern und bietet emotionale Unterstützung."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Depressionen bei der Bewältigung von Symptomen und der Förderung der psychischen Gesundheit?",
+    cevap: "Ein Krankenpfleger bietet emotionale Unterstützung, überwacht die Wirksamkeit von Medikamenten, ermutigt zur Teilnahme an therapeutischen Aktivitäten, fördert soziale Interaktion und bietet Unterstützung bei der Bewältigung von Stressfaktoren."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit chronischer Lebererkrankung bei der Verwaltung von Symptomen und der Förderung der Lebergesundheit zu helfen?",
+    cevap: "Ein Krankenpfleger überwacht die Leberfunktion, gibt Anleitungen zur Alkohol- und Medikamentenabstinenz, unterstützt bei der Einhaltung einer gesunden Ernährung, überwacht den Flüssigkeitsstatus und gibt Ratschläge zur Vermeidung von Hepatotoxinen."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Amyotropher Lateralsklerose (ALS) bei der Bewältigung von Muskelschwäche und der Förderung der Selbstständigkeit?",
+    cevap: "Ein Krankenpfleger gibt Hilfsmittel zur Unterstützung der Mobilität, unterstützt bei der Physiotherapie, gibt Ratschläge zur Erhaltung der Muskelfunktion und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit akutem Schlaganfall Erleichterung zu verschaffen und Komplikationen zu verhindern?",
+    cevap: "Ein Krankenpfleger überwacht die Vitalzeichen des Patienten, unterstützt bei der Verabreichung von Thrombolytika, fördert die frühzeitige Mobilisation, überwacht den neurologischen Zustand und gibt Anleitungen zur Vorbeugung von Folgeschäden."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit rheumatoider Arthritis bei der Schmerzlinderung und der Förderung der Gelenkfunktion?",
+    cevap: "Ein Krankenpfleger gibt Medikamente zur Schmerzlinderung, unterstützt bei der Physiotherapie, gibt Ratschläge zur Gelenkschonung, vermittelt Hilfsmittel und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einer Person mit Heroinabhängigkeit bei der Entgiftung und Rehabilitation zu helfen?",
+    cevap: "Ein Krankenpfleger überwacht den Entgiftungsprozess, gibt Medikamente zur Linderung von Entzugssymptomen, vermittelt Ressourcen für Drogenberatung und Rehabilitation und bietet emotionale Unterstützung während des Genesungsprozesses."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Multipler Sklerose bei der Bewältigung von Müdigkeit und der Förderung der Energieerhaltung?",
+    cevap: "Ein Krankenpfleger gibt Ratschläge zur Energieerhaltung, unterstützt bei der Planung von Aktivitäten, fördert die Aufteilung von Aufgaben, gibt Anleitungen zur Ruhe- und Erholungszeit und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um eine Infektion bei einem Patienten mit einem zentralen Venenkatheter zu verhindern?",
+    cevap: "Ein Krankenpfleger führt aseptische Techniken bei der Katheterpflege durch, überwacht den Zustand des Katheters, gibt Anleitungen zur Händehygiene, überprüft regelmäßig die Insertionsstelle und informiert den Patienten über Anzeichen einer Infektion."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit chronischer Niereninsuffizienz bei der Bewältigung von Symptomen und der Förderung der Nierenfunktion?",
+    cevap: "Ein Krankenpfleger überwacht regelmäßig die Nierenfunktion, gibt Anleitungen zur Kontrolle des Flüssigkeits- und Elektrolythaushalts, unterstützt bei der Dialysebehandlung, gibt Ratschläge zur Nieren-schonenden Ernährung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Morbus Parkinson bei der Bewältigung von motorischen Symptomen und der Förderung der Selbstständigkeit zu helfen?",
+    cevap: "Ein Krankenpfleger unterstützt bei der Medikamenteneinnahme, gibt Anleitungen zur Physiotherapie, vermittelt Hilfsmittel zur Unterstützung der Mobilität, fördert die Teilnahme an Bewegungsaktivitäten und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Brustkrebs bei der Bewältigung von Behandlungsnebenwirkungen und der Förderung des Wohlbefindens?",
+    cevap: "Ein Krankenpfleger gibt Informationen über mögliche Nebenwirkungen der Behandlung, unterstützt bei der Verwaltung von Symptomen wie Übelkeit und Müdigkeit, gibt Anleitungen zur Wundpflege nach Operationen und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit chronischer Migräne Erleichterung zu verschaffen und Anfälle zu reduzieren?",
+    cevap: "Ein Krankenpfleger gibt Medikamente zur Schmerzlinderung, überwacht den Zustand des Patienten während eines Anfalls, fördert die Identifizierung von Auslösern, gibt Ratschläge zur Stressbewältigung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Lungenentzündung bei der Genesung und der Verhinderung von Komplikationen?",
+    cevap: "Ein Krankenpfleger überwacht die Vitalzeichen des Patienten, unterstützt bei der Verabreichung von Antibiotika, gibt Anleitungen zur Atemübung, fördert die Flüssigkeitsaufnahme und informiert den Patienten über Anzeichen einer Verschlechterung."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit systemischem Lupus erythematodes bei der Symptomkontrolle und der Förderung der Lebensqualität zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Medikamente zur Symptomkontrolle, überwacht den Zustand des Patienten, gibt Anleitungen zur Sonnenschutzmittelverwendung, unterstützt bei der Energieerhaltung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit akuter Gastroenteritis bei der Linderung von Symptomen und der Wiederherstellung der Hydration?",
+    cevap: "Ein Krankenpfleger gibt Ratschläge zur Flüssigkeits- und Elektrolytzufuhr, überwacht die Vitalzeichen des Patienten, unterstützt bei der Verabreichung von Antiemetika, gibt Anleitungen zur hygienischen Händedesinfektion und informiert den Patienten über Anzeichen von Komplikationen."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit chronischer Herzinsuffizienz bei der Symptomkontrolle und der Förderung der Herzgesundheit zu helfen?",
+    cevap: "Ein Krankenpfleger überwacht die Herzfunktion, gibt Medikamente zur Kontrolle von Symptomen wie Ödemen und Atembeschwerden, gibt Anleitungen zur Natriumrestriktion, überwacht den Flüssigkeitsstatus und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Angststörung bei der Bewältigung von Symptomen und der Förderung des psychischen Wohlbefindens?",
+    cevap: "Ein Krankenpfleger bietet emotionale Unterstützung, gibt Informationen über Bewältigungsstrategien, fördert die Teilnahme an Entspannungsübungen, ermutigt zur sozialen Interaktion und koordiniert gegebenenfalls die Zusammenarbeit mit Psychologen oder Psychiatern."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit einer offenen Fraktur bei der Pflege der Wunde und der Verhinderung von Infektionen zu helfen?",
+    cevap: "Ein Krankenpfleger reinigt die Wunde gemäß den aseptischen Techniken, trägt sterile Verbände auf, überwacht den Heilungsprozess, gibt Anleitungen zur Wundversorgung zu Hause und informiert den Patienten über Anzeichen einer Infektion."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Alzheimer-Krankheit bei der Bewältigung von Gedächtnisverlust und der Förderung der Sicherheit?",
+    cevap: "Ein Krankenpfleger unterstützt bei der Schaffung einer sicheren Umgebung, ermutigt zur aktiven Teilnahme an Aktivitäten, gibt Anleitungen zur Orientierungshilfe, unterstützt die Kommunikation und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit akutem Asthma bei der Behandlung von Atemnot und der Förderung der Lungenfunktion?",
+    cevap: "Ein Krankenpfleger gibt bronchienerweiternde Medikamente, überwacht die Sauerstoffsättigung, fördert Atemübungen, gibt Ratschläge zur Vermeidung von Auslösern und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Nierensteinen bei der Schmerzlinderung und der Förderung der Harnfunktion zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Schmerzmedikamente, fördert die Flüssigkeitsaufnahme, überwacht die Urinproduktion, gibt Ratschläge zur Ernährungsumstellung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit chronischer Herzinsuffizienz bei der Symptomkontrolle und der Förderung der Herzgesundheit?",
+    cevap: "Ein Krankenpfleger überwacht die Herzfunktion, gibt Medikamente zur Kontrolle von Symptomen wie Ödemen und Atembeschwerden, gibt Anleitungen zur Natriumrestriktion, überwacht den Flüssigkeitsstatus und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Angststörung bei der Bewältigung von Symptomen und der Förderung des psychischen Wohlbefindens zu helfen?",
+    cevap: "Ein Krankenpfleger bietet emotionale Unterstützung, gibt Informationen über Bewältigungsstrategien, fördert die Teilnahme an Entspannungsübungen, ermutigt zur sozialen Interaktion und koordiniert gegebenenfalls die Zusammenarbeit mit Psychologen oder Psychiatern."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit einer offenen Fraktur bei der Pflege der Wunde und der Verhinderung von Infektionen?",
+    cevap: "Ein Krankenpfleger reinigt die Wunde gemäß den aseptischen Techniken, trägt sterile Verbände auf, überwacht den Heilungsprozess, gibt Anleitungen zur Wundversorgung zu Hause und informiert den Patienten über Anzeichen einer Infektion."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Alzheimer-Krankheit bei der Bewältigung von Gedächtnisverlust und der Förderung der Sicherheit?",
+    cevap: "Ein Krankenpfleger unterstützt bei der Schaffung einer sicheren Umgebung, ermutigt zur aktiven Teilnahme an Aktivitäten, gibt Anleitungen zur Orientierungshilfe, unterstützt die Kommunikation und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit akuter Pankreatitis bei der Schmerzlinderung und der Förderung der Verdauungsfunktion zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Schmerzmedikamente, überwacht die Verdauungssymptome, gibt Anleitungen zur Enzymersatztherapie, fördert eine fettarme Ernährung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Schizophrenie bei der Bewältigung von Symptomen und der Förderung des psychischen Wohlbefindens?",
+    cevap: "Ein Krankenpfleger bietet emotionale Unterstützung, gibt Informationen über Medikamente und ihre Wirkungen, unterstützt bei der Entwicklung von Bewältigungsstrategien, fördert die Einhaltung der Behandlungspläne und koordiniert gegebenenfalls die Zusammenarbeit mit Psychiatern und Therapeuten."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Diabetes mellitus Typ  bei der Blutzuckerkontrolle und der Förderung einer gesunden Lebensweise zu helfen?",
+    cevap: "Ein Krankenpfleger unterstützt bei der Insulin- oder oralen Antidiabetika-Einnahme, gibt Anleitungen zur Blutzuckermessung, fördert eine ausgewogene Ernährung, unterstützt bei der körperlichen Aktivität und bietet Schulungen zum Diabetesmanagement an."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Epilepsie bei der Anfallskontrolle und der Förderung der Sicherheit?",
+    cevap: "Ein Krankenpfleger gibt Informationen über die Einhaltung der Medikamente, überwacht Anfallsmuster, gibt Anleitungen zur Anfallserkennung und -vermeidung, fördert die Schaffung einer sicheren Umgebung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Hämophilie bei der Blutungsprävention und der Förderung der Gesundheit zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Blutungsrisiken, gibt Anleitungen zur Vermeidung von Verletzungen, fördert die regelmäßige Einnahme von Gerinnungsfaktoren, überwacht die Blutungszeiten und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit chronischer obstruktiver Lungenerkrankung (COPD) bei der Atemkontrolle und der Förderung der Lungenfunktion?",
+    cevap: "Ein Krankenpfleger gibt bronchienerweiternde Medikamente, überwacht die Sauerstoffsättigung, gibt Anleitungen zur Atemtechnik, fördert Atemübungen und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Reizdarmsyndrom bei der Symptomkontrolle und der Förderung der Verdauungsfunktion zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Triggerfaktoren, gibt Anleitungen zur diätetischen Modifikation, unterstützt bei der Verabreichung von Medikamenten zur Symptomkontrolle, fördert Stressbewältigungsstrategien und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit rheumatoider Arthritis bei der Schmerzlinderung und der Förderung der Gelenkfunktion?",
+    cevap: "Ein Krankenpfleger gibt entzündungshemmende Medikamente, gibt Anleitungen zur Gelenkschonung, fördert physikalische Therapieübungen, gibt Ratschläge zur Anpassung der häuslichen Umgebung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Schlaganfall bei der Rehabilitation und der Förderung der motorischen Funktionen zu helfen?",
+    cevap: "Ein Krankenpfleger unterstützt bei der Physiotherapie, überwacht die neurologischen Symptome, gibt Anleitungen zur Sprach- und Schlucktherapie, fördert die Selbstständigkeit im Alltag und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit chronischer Niereninsuffizienz bei der Nierenfunktion und der Förderung des Flüssigkeits- und Elektrolythaushalts?",
+    cevap: "Ein Krankenpfleger überwacht die Nierenfunktion, gibt Anleitungen zur Flüssigkeits- und Natriumrestriktion, unterstützt bei der Dialysebehandlung, gibt Ratschläge zur nierenschonenden Ernährung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Morbus Parkinson bei der Bewältigung von motorischen Symptomen und der Förderung der Selbstständigkeit zu helfen?",
+    cevap: "Ein Krankenpfleger unterstützt bei der Medikamenteneinnahme, gibt Anleitungen zur Physiotherapie, vermittelt Hilfsmittel zur Unterstützung der Mobilität, fördert die Teilnahme an Bewegungsaktivitäten und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Brustkrebs bei der Bewältigung von Behandlungsnebenwirkungen und der Förderung des Wohlbefindens?",
+    cevap: "Ein Krankenpfleger gibt Informationen über mögliche Nebenwirkungen der Behandlung, unterstützt bei der Verwaltung von Symptomen wie Übelkeit und Müdigkeit, gibt Anleitungen zur Wundpflege nach Operationen und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit HIV/AIDS bei der Symptomkontrolle und der Förderung der Immungesundheit zu helfen?",
+    cevap: "Ein Krankenpfleger gibt antiretrovirale Medikamente, überwacht den Verlauf der HIV-Infektion, gibt Anleitungen zur sicheren Sexualpraxis, unterstützt bei der Verwaltung von Begleitinfektionen und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Multipler Sklerose bei der Bewältigung von Symptomen und der Förderung der Lebensqualität?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Medikamente zur Symptomkontrolle, gibt Anleitungen zur Bewältigung von Müdigkeit und Schmerzen, fördert die körperliche Aktivität und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Magengeschwür bei der Schmerzlinderung und der Förderung der Verdauungsfunktion zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Medikamente zur Verringerung der Magensäureproduktion, gibt Anleitungen zur diätetischen Modifikation, überwacht die Symptome, gibt Ratschläge zur Stressbewältigung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Demenz bei der Bewältigung von Verwirrung und der Förderung des Wohlbefindens?",
+    cevap: "Ein Krankenpfleger unterstützt bei der Schaffung einer strukturierten Umgebung, gibt Anleitungen zur Orientierungshilfe, unterstützt bei der Kommunikation, fördert die Teilnahme an Aktivitäten und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Osteoporose bei der Förderung der Knochengesundheit und der Vermeidung von Frakturen zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über die Bedeutung von Kalzium und Vitamin D, gibt Anleitungen zur körperlichen Aktivität, überwacht die Knochendichte, gibt Ratschläge zur Sturzprävention und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit bipolaren Störungen bei der Bewältigung von Stimmungsschwankungen und der Förderung des psychischen Wohlbefindens?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Medikamente und ihre Wirkungen, unterstützt bei der Entwicklung von Bewältigungsstrategien, fördert eine regelmäßige Schlafenszeit, ermutigt zur Einhaltung der Behandlungspläne und koordiniert gegebenenfalls die Zusammenarbeit mit Psychiatern und Therapeuten."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Glaukom bei der Förderung der Augengesundheit und der Vermeidung von Sehverlust zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über die korrekte Anwendung von Augentropfen, gibt Anleitungen zur Vermeidung von Augenbelastung, unterstützt bei der regelmäßigen Augenuntersuchung, gibt Ratschläge zur Sicherheit im Umgang mit Sehbeeinträchtigungen und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Zöliakie bei der Bewältigung von Symptomen und der Förderung einer glutenfreien Ernährung?",
+    cevap: "Ein Krankenpfleger gibt Informationen über glutenfreie Lebensmittel, gibt Anleitungen zur Etikettenkontrolle, unterstützt bei der Ernährungsplanung, gibt Ratschläge zur Vermeidung von Kontamination und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit systemischem Lupus erythematodes bei der Symptomkontrolle und der Förderung der Lebensqualität zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Medikamente zur Symptomkontrolle, gibt Anleitungen zur Sonnenschutzpraxis, unterstützt bei der Bewältigung von Müdigkeit und Schmerzen, fördert die körperliche Aktivität und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit chronischer Migräne bei der Schmerzlinderung und der Förderung des Wohlbefindens?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Triggerfaktoren, gibt Anleitungen zur Medikamenteneinnahme, fördert Entspannungstechniken, unterstützt bei der Schmerzmanagementplanung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Schilddrüsenerkrankungen bei der Hormonregulation und der Förderung des Stoffwechsels zu helfen?",
+    cevap: "Ein Krankenpfleger überwacht die Schilddrüsenhormonwerte, gibt Anleitungen zur Medikamenteneinnahme, unterstützt bei der Identifizierung von Symptomen von Unter- oder Überfunktion, gibt Ratschläge zur jodreichen Ernährung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Autismus bei der Bewältigung von sozialen Herausforderungen und der Förderung des Wohlbefindens?",
+    cevap: "Ein Krankenpfleger bietet emotionale Unterstützung, gibt Informationen über Verhaltensstrategien, fördert die strukturierte Umgebung, unterstützt bei der Koordination von Therapiesitzungen und bietet Ressourcen für die Eltern des Patienten."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Herzerkrankungen bei der Förderung der Herzgesundheit und der Vermeidung von Komplikationen zu helfen?",
+    cevap: "Ein Krankenpfleger überwacht die Vitalfunktionen, gibt Anleitungen zur Medikamenteneinnahme, unterstützt bei der Ernährungsplanung, fördert körperliche Aktivität und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Amyotropher Lateralsklerose (ALS) bei der Bewältigung von motorischen Einschränkungen und der Förderung des Wohlbefindens?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Hilfsmittel zur Unterstützung der Mobilität, gibt Anleitungen zur Atemtechnik und -pflege, unterstützt bei der Verwaltung von Symptomen wie Schluckbeschwerden und gibt emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Borderline-Persönlichkeitsstörung bei der Bewältigung von emotionalen Schwankungen und der Förderung des psychischen Wohlbefindens zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Medikamente und ihre Wirkungen, unterstützt bei der Entwicklung von Bewältigungsstrategien, fördert eine regelmäßige Schlafenszeit, ermutigt zur Einhaltung der Behandlungspläne und koordiniert gegebenenfalls die Zusammenarbeit mit Psychiatern und Therapeuten."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) bei der Bewältigung von Konzentrationsschwierigkeiten und der Förderung des Wohlbefindens?",
+    cevap: "Ein Krankenpfleger gibt Informationen über ADHS-Medikamente und ihre Wirkungen, unterstützt bei der Entwicklung von Bewältigungsstrategien, fördert eine strukturierte Umgebung, unterstützt bei der Schaffung von Routinen und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit chronischer Sinusitis bei der Symptomkontrolle und der Förderung der Nasengesundheit zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über die Verwendung von Nasenspülungen, gibt Anleitungen zur Vermeidung von Auslösern, unterstützt bei der Verabreichung von Medikamenten zur Symptomkontrolle, fördert die Befeuchtung der Nasenhöhle und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Fibromyalgie bei der Bewältigung von Schmerzen und der Förderung des Wohlbefindens?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Schmerzmanagementtechniken, gibt Anleitungen zur Bewältigung von Müdigkeit und Schlafstörungen, fördert sanfte Bewegungsübungen, unterstützt bei der Identifizierung von Auslösern und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit chronischer Bronchitis bei der Förderung der Atemfunktion und der Vermeidung von Exazerbationen zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Anleitungen zur Atemtechnik, unterstützt bei der Verabreichung von Bronchodilatatoren, gibt Informationen über das Rauchverbot, fördert die Impfung gegen Grippe und Pneumokokken und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Essstörungen bei der Bewältigung von Essgewohnheiten und der Förderung des Wohlbefindens?",
+    cevap: "Ein Krankenpfleger gibt Informationen über eine ausgewogene Ernährung, unterstützt bei der Entwicklung eines gesunden Essverhaltens, fördert die Teilnahme an Therapiesitzungen, gibt Ratschläge zur Verbesserung des Körperbildes und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit rheumatischer Arthritis bei der Schmerzlinderung und der Förderung der Gelenkfunktion zu helfen?",
+    cevap: "Ein Krankenpfleger gibt entzündungshemmende Medikamente, gibt Anleitungen zur Gelenkschonung, fördert physikalische Therapieübungen, gibt Ratschläge zur Anpassung der häuslichen Umgebung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Schilddrüsenunterfunktion bei der Hormonregulation und der Förderung des Stoffwechsels?",
+    cevap: "Ein Krankenpfleger überwacht die Schilddrüsenhormonwerte, gibt Anleitungen zur Medikamenteneinnahme, unterstützt bei der Identifizierung von Symptomen von Unterfunktion, gibt Ratschläge zur jodreichen Ernährung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Anämie bei der Förderung der Sauerstoffversorgung und der Vermeidung von Komplikationen zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über eisenreiche Lebensmittel, gibt Anleitungen zur Einnahme von Eisenpräparaten, unterstützt bei der Überwachung des Hämoglobinspiegels, gibt Ratschläge zur Energieerhaltung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ { 
+ soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Generalisierter Angststörung bei der Bewältigung von übermäßiger Sorge und der Förderung des psychischen Wohlbefindens?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Entspannungstechniken, unterstützt bei der Entwicklung von Bewältigungsstrategien, fördert eine regelmäßige Schlafenszeit, ermutigt zur Einhaltung der Behandlungspläne und koordiniert gegebenenfalls die Zusammenarbeit mit Psychiatern und Therapeuten."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Polyzystischem Ovarsyndrom (PCOS) bei der Hormonregulation und der Förderung des reproduktiven Wohlbefindens zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Medikamente zur Hormonregulation, gibt Anleitungen zur Gewichtsregulierung, unterstützt bei der Bewältigung von Zyklusstörungen, gibt Ratschläge zur Fruchtbarkeitsbehandlung und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit COPD bei der Bewältigung von Atembeschwerden und der Förderung der Lebensqualität?",
+    cevap: "Ein Krankenpfleger gibt Anleitungen zur Atemtechnik, unterstützt bei der Verabreichung von Bronchodilatatoren, fördert körperliche Aktivität, gibt Ratschläge zur Vermeidung von Auslösern und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Depressionen bei der Bewältigung von Stimmungsschwankungen und der Förderung des psychischen Wohlbefindens zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Medikamente zur Stimmungsstabilisierung, unterstützt bei der Entwicklung von Bewältigungsstrategien, fördert eine regelmäßige Schlafenszeit, ermutigt zur Einhaltung der Behandlungspläne und koordiniert gegebenenfalls die Zusammenarbeit mit Psychiatern und Therapeuten."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Diabetes bei der Blutzuckerkontrolle und der Förderung eines gesunden Lebensstils?",
+    cevap: "Ein Krankenpfleger gibt Anleitungen zur Blutzuckermessung und Insulingabe, unterstützt bei der Ernährungsplanung, fördert körperliche Aktivität, gibt Informationen über Fußpflege und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Demenz bei der Bewältigung von Gedächtnisverlust und der Förderung des Wohlbefindens zu helfen?",
+    cevap: "Ein Krankenpfleger unterstützt bei der Schaffung einer strukturierten Umgebung, gibt Anleitungen zur Orientierungshilfe, unterstützt bei der Kommunikationstechnik, gibt Ratschläge zur Aktivierung des Gedächtnisses und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Schlaganfall bei der Rehabilitation und der Förderung der Selbstständigkeit?",
+    cevap: "Ein Krankenpfleger unterstützt bei der Physiotherapie, gibt Anleitungen zur Mobilitätshilfe, fördert die Sprachtherapie, gibt Ratschläge zur Sicherheit im häuslichen Umfeld und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Welche Maßnahmen ergreift ein Krankenpfleger, um einem Patienten mit Multipler Sklerose bei der Symptomkontrolle und der Förderung der Lebensqualität zu helfen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über Medikamente zur Symptomkontrolle, gibt Anleitungen zur Energieerhaltung, unterstützt bei der Bewältigung von Müdigkeit und Mobilitätsproblemen, gibt Ratschläge zur Sicherheit im häuslichen Umfeld und bietet emotionale Unterstützung für den Patienten und die Familie."
+  },
+
+ {
+    soru: "Wie unterstützt ein Krankenpfleger einen Patienten mit Osteoporose bei der Knochengesundheit und der Vermeidung von Frakturen?",
+    cevap: "Ein Krankenpfleger gibt Informationen über die Aufrechterhaltung eines ausreichenden Calcium- und Vitamin-D-Spiegels, gibt Anleitungen zur Sturzprävention, fördert körperliche Aktivität, gibt Ratschläge zur Verbesserung der Körperhaltung und bietet emotionale Unterstützung für den Patienten und die Familie."
   },
 ];
 
